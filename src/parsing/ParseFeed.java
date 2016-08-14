@@ -71,7 +71,6 @@ public class ParseFeed {
 						point.putProperty("age", ageStr);
 					}
 				}
-		
 
 			}
 		
