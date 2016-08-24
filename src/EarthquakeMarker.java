@@ -38,8 +38,8 @@ public abstract class EarthquakeMarker extends SimplePointMarker{
 		// call abstract method implemented in child class to draw marker shape
 		drawEarthquake(pg, x, y);
 			
-		//draw X over marker if within past hour
-		if(age.contentEquals("Past Hour")){
+		//draw X over marker if within past day
+		if(age.contentEquals("Past Day")){
 			pg.line(x-10, y-10, x+10, y+10);
 			pg.line(x+10, y-10, x-10, y+10);
 		}
